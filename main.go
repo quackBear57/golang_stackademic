@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"backend/api"	// add api package to call the controller
+	"github.com/quackBear57/golang_stackademic/backend/api"	// add api package to call the controller
 	"net/http"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
