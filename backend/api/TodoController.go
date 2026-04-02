@@ -21,5 +21,5 @@ func (rs TodoResources) Routes() chi.Router {
 
 func (rs TodoResources) Get(w http.ResponseWriter, r *http.Request) {
 	id := chi.URLParam(r, "id")
-	w.Write([]byte("todo get" + id))
+	w.Write([]byte("todo get " + id))
 }
