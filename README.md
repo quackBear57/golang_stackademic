@@ -1,1 +1,1 @@
-
+Following the example in [this website](https://blog.stackademic.com/vue-golang-gamechanger-03f96e74fa85). 
